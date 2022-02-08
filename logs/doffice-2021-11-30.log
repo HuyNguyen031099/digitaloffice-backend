@@ -1,0 +1,2 @@
+2021-12-01 00:35:22,535 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8091-exec-9] Closed connection [connectionId{localValue:886, serverValue:5055}] to 178.128.19.31:27017 because there was a socket exception raised on another connection from this pool.
+2021-12-01 00:35:23,334 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8091-exec-9] Opened connection [connectionId{localValue:1544, serverValue:5433}] to 178.128.19.31:27017

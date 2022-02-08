@@ -1,0 +1,94 @@
+2021-11-08 19:11:34,810 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DigitalOfficeBackendApplication using Java 1.8.0_111 on My-Laptop with PID 2340 (D:\Workspace\IntelliJ_Projects\datn\digital-office-backend\target\classes started by Admin in D:\Workspace\IntelliJ_Projects\datn\digital-office-backend)
+2021-11-08 19:11:34,810 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-08 19:11:34,810 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-08 19:11:34,888 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-08 19:11:34,888 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-08 19:11:36,110 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-11-08 19:11:36,125 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 0 MongoDB repository interfaces.
+2021-11-08 19:11:36,625 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@15d77222' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-08 19:11:36,625 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-08 19:11:36,969 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8091 (http)
+2021-11-08 19:11:36,985 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8091"]
+2021-11-08 19:11:36,985 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-08 19:11:36,985 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-08 19:11:37,063 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-08 19:11:37,063 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2175 ms
+2021-11-08 19:11:37,172 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[178.128.19.31:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-11-08 19:11:37,328 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='618913f9a92698253127b4ad', description='null'}-178.128.19.31:27017] Opened connection [connectionId{localValue:2, serverValue:697}] to 178.128.19.31:27017
+2021-11-08 19:11:37,328 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='618913f9a92698253127b4ad', description='null'}-178.128.19.31:27017] Opened connection [connectionId{localValue:1, serverValue:696}] to 178.128.19.31:27017
+2021-11-08 19:11:37,328 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='618913f9a92698253127b4ad', description='null'}-178.128.19.31:27017] Monitor thread successfully connected to server with description ServerDescription{address=178.128.19.31:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=57258100, setName='reps0', canonicalAddress=127.0.0.1:27017, hosts=[127.0.0.1:27017], passives=[], arbiters=[], primary='127.0.0.1:27017', tagSet=TagSet{[]}, electionId=7fffffff000000000000000e, setVersion=1, topologyVersion=TopologyVersion{processId=61824065b32f7a93cc0ee417, counter=6}, lastWriteDate=Mon Nov 08 19:11:33 ICT 2021, lastUpdateTimeNanos=3167232342100}
+2021-11-08 19:11:37,829 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtTokenFilter' configured for use
+2021-11-08 19:11:38,110 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@636edaaa, org.springframework.security.web.context.SecurityContextPersistenceFilter@11f18829, org.springframework.security.web.header.HeaderWriterFilter@196113ed, org.springframework.web.filter.CorsFilter@6760261c, org.springframework.security.web.authentication.logout.LogoutFilter@688308a8, com.datn.doffice.config.security.JwtTokenFilter@7fb25d2a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@100eecf7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fd46a5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b8f62d, org.springframework.security.web.session.SessionManagementFilter@4a1a16b7, org.springframework.security.web.access.ExceptionTranslationFilter@fb57bdf]
+2021-11-08 19:11:38,469 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-08 19:11:38,500 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8091"]
+2021-11-08 19:11:38,500 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8091 is already in use
+2021-11-08 19:11:38,500 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Pausing ProtocolHandler ["http-nio-8091"]
+2021-11-08 19:11:38,500 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-11-08 19:11:38,516 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The web application [ROOT] appears to have started a thread named [cluster-ClusterId{value='618913f9a92698253127b4ad', description='null'}-178.128.19.31:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:170)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:109)
+ com.mongodb.internal.connection.SocketStream.read(SocketStream.java:131)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:647)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveMessageWithAdditionalTimeout(InternalStreamConnection.java:512)
+ com.mongodb.internal.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:355)
+ com.mongodb.internal.connection.InternalStreamConnection.receive(InternalStreamConnection.java:315)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:215)
+ com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:144)
+ java.lang.Thread.run(Thread.java:745)
+2021-11-08 19:11:38,516 WARN org.apache.juli.logging.DirectJDKLog [restartedMain] The web application [ROOT] appears to have started a thread named [cluster-rtt-ClusterId{value='618913f9a92698253127b4ad', description='null'}-178.128.19.31:27017] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.mongodb.internal.connection.DefaultServerMonitor.waitForNext(DefaultServerMonitor.java:435)
+ com.mongodb.internal.connection.DefaultServerMonitor.access$1300(DefaultServerMonitor.java:57)
+ com.mongodb.internal.connection.DefaultServerMonitor$RoundTripTimeRunnable.run(DefaultServerMonitor.java:409)
+ java.lang.Thread.run(Thread.java:745)
+2021-11-08 19:11:38,516 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping ProtocolHandler ["http-nio-8091"]
+2021-11-08 19:11:38,516 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Destroying ProtocolHandler ["http-nio-8091"]
+2021-11-08 19:11:38,532 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-08 19:11:38,547 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8091 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8091 or configure this application to listen on another port.
+
+2021-11-08 19:14:47,844 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DigitalOfficeBackendApplication using Java 1.8.0_111 on My-Laptop with PID 5892 (D:\Workspace\IntelliJ_Projects\datn\digital-office-backend\target\classes started by Admin in D:\Workspace\IntelliJ_Projects\datn\digital-office-backend)
+2021-11-08 19:14:47,875 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.6, Spring v5.3.12
+2021-11-08 19:14:47,875 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-08 19:14:47,938 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-08 19:14:47,938 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-08 19:14:49,533 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-11-08 19:14:49,549 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 0 MongoDB repository interfaces.
+2021-11-08 19:14:50,096 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1382f970' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-08 19:14:50,112 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-08 19:14:50,518 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8091 (http)
+2021-11-08 19:14:50,518 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8091"]
+2021-11-08 19:14:50,518 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-11-08 19:14:50,518 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-08 19:14:50,612 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-08 19:14:50,612 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2674 ms
+2021-11-08 19:14:50,752 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[178.128.19.31:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-11-08 19:14:50,924 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-rtt-ClusterId{value='618914bade5aaf41fad6e252', description='null'}-178.128.19.31:27017] Opened connection [connectionId{localValue:1, serverValue:698}] to 178.128.19.31:27017
+2021-11-08 19:14:50,955 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='618914bade5aaf41fad6e252', description='null'}-178.128.19.31:27017] Opened connection [connectionId{localValue:2, serverValue:699}] to 178.128.19.31:27017
+2021-11-08 19:14:50,955 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='618914bade5aaf41fad6e252', description='null'}-178.128.19.31:27017] Monitor thread successfully connected to server with description ServerDescription{address=178.128.19.31:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=67826699, setName='reps0', canonicalAddress=127.0.0.1:27017, hosts=[127.0.0.1:27017], passives=[], arbiters=[], primary='127.0.0.1:27017', tagSet=TagSet{[]}, electionId=7fffffff000000000000000e, setVersion=1, topologyVersion=TopologyVersion{processId=61824065b32f7a93cc0ee417, counter=6}, lastWriteDate=Mon Nov 08 19:14:43 ICT 2021, lastUpdateTimeNanos=134855872200}
+2021-11-08 19:14:51,456 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtTokenFilter' configured for use
+2021-11-08 19:14:51,768 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@469eb33c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b36bb62, org.springframework.security.web.header.HeaderWriterFilter@549330c6, org.springframework.web.filter.CorsFilter@185b1be2, org.springframework.security.web.authentication.logout.LogoutFilter@21622e1e, com.datn.doffice.config.security.JwtTokenFilter@20d1e011, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68f31fd2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f9dfeb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ae34014, org.springframework.security.web.session.SessionManagementFilter@5f3d4a49, org.springframework.security.web.access.ExceptionTranslationFilter@70a34f4b]
+2021-11-08 19:14:52,128 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-11-08 19:14:52,159 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8091"]
+2021-11-08 19:14:52,174 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8091 (http) with context path ''
+2021-11-08 19:14:52,190 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DigitalOfficeBackendApplication in 5.216 seconds (JVM running for 7.236)
+2021-11-08 19:15:23,295 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8091-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-08 19:15:23,296 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8091-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-11-08 19:15:23,298 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8091-exec-2] Completed initialization in 1 ms
+2021-11-08 19:15:24,896 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8091-exec-2] Opened connection [connectionId{localValue:3, serverValue:700}] to 178.128.19.31:27017

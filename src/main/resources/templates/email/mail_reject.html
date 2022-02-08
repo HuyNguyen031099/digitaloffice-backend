@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>${sysAppName}</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif">
+<table width="100%" border="0" cellspacing="0">
+
+  <!--  Header-->
+  <tr style="background-color: rgb(28, 53, 53); ">
+    <td width="50" style="padding: 15px 0;"></td>
+    <td style="padding: 15px 0;" colspan="2">
+    </td>
+    <td style="text-align: right; padding: 15px 0;">
+    </td>
+    <td width="50" style="padding: 15px 0;"></td>
+  </tr>
+
+
+  <tr>
+    <td width="50"></td>
+    <td colspan="3" style="padding: 30px 0;">
+      <p>Kính gửi ông/bà <strong> ${fullName},</b></strong></p>
+      <p>
+        Hệ thống DOFFICE thông báo: tài liệu <strong> ${nameDocument} </b></strong> 
+        ông/bà tải lên đã bị quản trị từ chối vào lúc ${time}.
+      </p>
+      <p>Trân trọng,</p>
+    </td>
+
+    <td width="50"></td>
+  </tr>
+
+
+  <tr>
+    <td style="padding: 0px 0px; font-size: 13px;" colspan="2">
+      <table width="100%" style="font-size: 13px;">
+        <tr>
+          <td colspan="4" >
+            <p>
+              ${sysName}
+              <br>
+              ${sysAddress}
+            </p>
+          </td>
+        </tr>
+        <tr colspan="4">
+          <td width="150">
+          Link: 
+            <a href="${sysDomain}" target="_blank"
+               style="text-decoration: none;">${sysDomain}</a>
+          </td>
+        </tr>
+        <tr colspan="4">
+          <td style="padding-bottom: 10px">
+            Số điện thoại: ${sysPhone}
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="50" style="padding: 15px 0;"></td>
+  </tr>
+
+
+</table>
+</body>
+
+</html>

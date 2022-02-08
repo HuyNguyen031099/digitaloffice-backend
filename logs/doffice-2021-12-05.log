@@ -1,0 +1,2 @@
+2021-12-06 00:43:51,869 INFO com.mongodb.diagnostics.logging.SLF4JLogger [http-nio-8091-exec-7] Opened connection [connectionId{localValue:151, serverValue:7790}] to 178.128.19.31:27017
+2021-12-06 00:55:44,729 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(296)-127.0.0.1] Application shutdown requested.

@@ -1,0 +1,13 @@
+{
+  "name": "DIGITAL-OFFICE API DOCUMENT",
+  "version": "0.0.0",
+  "title": "DIGITAL-OFFICE API DOCUMENT",
+  "header": {
+    "title": "Header",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "Footer",
+    "filename": "footer.md"
+  }
+}
